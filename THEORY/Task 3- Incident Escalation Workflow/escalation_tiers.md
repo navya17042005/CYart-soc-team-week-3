@@ -10,8 +10,6 @@ Event IDs:
 4625 – Failed Login  
 4624 – Successful Login
 
----
-
 ## Tier 1 – Triage (SOC Analyst)
 
 Responsibilities:
@@ -26,8 +24,6 @@ Activity flagged as suspicious.
 
 Decision:
 Escalated to Tier 2 for deeper investigation.
-
----
 
 ## Tier 2 – Investigation (SOC Analyst)
 
@@ -45,8 +41,6 @@ T1110 – Brute Force
 Decision:
 Escalated to Tier 3 for advanced analysis.
 
----
-
 ## Tier 3 – Advanced Analysis
 
 Responsibilities:
@@ -56,8 +50,6 @@ Responsibilities:
 
 Action Taken:
 Security team investigates whether the account has been compromised and checks for lateral movement.
-
----
 
 ## Conclusion
 SOC escalation tiers ensure that security incidents are handled efficiently by analysts with increasing expertise.
