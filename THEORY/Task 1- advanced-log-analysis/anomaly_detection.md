@@ -1,18 +1,22 @@
-
-## Anomaly Detection
+# Anomaly Detection
 
 ## Objective
-To identify unusual login behavior in Windows Security logs.
+The objective of anomaly detection is to identify unusual or suspicious activities in system logs that deviate from normal user behavior.
 
 ## Observed Behavior
-A series of failed login attempts occurred within a short time frame.
+While analyzing the Windows Security logs, multiple failed login attempts (Event ID 4625) were observed within a very short time period.
+
+These failed login attempts occurred before a successful login event (Event ID 4624).
 
 ## Suspicious Indicators
-- Multiple failed login attempts
-- Repeated attempts within minutes
+- Multiple failed login attempts in a short time frame
+- Same user account targeted repeatedly
+- Similar source network address for the attempts
 
 ## Analysis
-This behavior deviates from normal user activity and may indicate a brute-force attack.
+Under normal conditions, users typically enter the correct password within one or two attempts. However, repeated failed login attempts within seconds or minutes indicate abnormal authentication behavior.
+
+This pattern may suggest a **brute-force password attack**, where an attacker repeatedly tries different passwords to gain access.
 
 ## Conclusion
-Anomaly detection helps identify suspicious patterns that could indicate malicious activity.
+Detecting anomalies such as repeated login failures helps SOC analysts identify potential security threats and investigate possible unauthorized access attempts.
