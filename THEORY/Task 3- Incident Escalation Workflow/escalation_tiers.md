@@ -61,3 +61,15 @@ Security team investigates whether the account has been compromised and checks f
 
 ## Conclusion
 SOC escalation tiers ensure that security incidents are handled efficiently by analysts with increasing expertise.
+
+SIEM Alert
+     ↓
+Tier 1 Analysis
+     ↓
+Escalate
+     ↓
+Tier 2 Investigation
+     ↓
+Escalate
+     ↓
+Tier 3 Incident Response
