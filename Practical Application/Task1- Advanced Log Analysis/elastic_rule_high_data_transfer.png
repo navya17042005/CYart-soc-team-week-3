@@ -1,0 +1,4 @@
+## anamoly detection
+An Elastic index threshold rule was created to detect outbound network traffic exceeding 1MB within one minute.
+
+A mock log event representing a 1.5MB file transfer was inserted into Elasticsearch. The event was visible in Discover and matched the rule condition, demonstrating how Elastic can detect abnormal high-volume data transfers.
