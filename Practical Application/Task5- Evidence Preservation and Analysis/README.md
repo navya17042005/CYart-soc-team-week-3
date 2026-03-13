@@ -78,7 +78,7 @@ Hashing ensures the evidence has not been altered and maintains forensic integri
 
 | Item | Description | Collected By | Date | Hash Value |
 |-----|-------------|-------------|------|------------|
-| Memory Dump | Server-Y Dump | SOC Analyst | 2025-08-18 | SHA256_HASH |
+| Memory Dump | Server-Y Dump | SOC Analyst | 2025-08-18 | 398c654ef2aeb9805d3263617863e93d34fb0c7547a5e7ed8c2f379c6d4d1fae |
 
 ---
 
