@@ -1,0 +1,3 @@
+##  Briefing
+
+A simulated security incident was detected in the SOC environment involving an attempted exploitation of a vulnerable Samba service on a test server. The monitoring system (Wazuh) generated an alert indicating suspicious activity from IP address 192.168.1.101. SOC analysts quickly reviewed the alert and confirmed an exploitation attempt. As a containment measure, the attacker’s IP address was blocked using CrowdSec and the affected virtual machine was isolated to prevent further compromise. The incident was escalated to Tier-2 analysts through TheHive for deeper investigation. This exercise demonstrated that the SOC monitoring and response process can effectively detect, contain, and manage potential cyber threats.
