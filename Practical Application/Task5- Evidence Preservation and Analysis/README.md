@@ -36,10 +36,6 @@ The collected data includes:
 
 This information helps identify suspicious communication or possible command-and-control connections.
 
-## Evidence
-
-![Netstat Results](screenshots/netstat_results.png)
-
 # Step 2: Memory Acquisition
 
 Memory acquisition is an important step in digital forensics because malicious code often resides in system memory.
@@ -52,12 +48,6 @@ This artifact collects a memory dump from the system for forensic investigation.
 
 The memory dump can later be analyzed using forensic tools such as FTK Imager or Volatility.
 
-## Evidence
-
-![Memory Acquisition](screenshots/memory_acquisition.png)
-
----
-
 # Step 3: Evidence Integrity Verification
 
 To ensure the integrity of the collected memory dump, a SHA256 hash was generated using PowerShell.
@@ -68,11 +58,6 @@ CertUtil -hashfile memory_dump.raw SHA256
 
 Hashing ensures the evidence has not been altered and maintains forensic integrity.
 
-## Evidence
-
-![Memory Hash](screenshots/memory_hash.png)
-
----
 
 # Chain of Custody
 
@@ -80,7 +65,6 @@ Hashing ensures the evidence has not been altered and maintains forensic integri
 |-----|-------------|-------------|------|------------|
 | Memory Dump | Server-Y Dump | SOC Analyst | 2025-08-18 | 398c654ef2aeb9805d3263617863e93d34fb0c7547a5e7ed8c2f379c6d4d1fae |
 
----
 
 # Conclusion
 
